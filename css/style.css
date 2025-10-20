@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+  max-width: 1280px;  
+  margin: 0 auto;     
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  border: 1px solid #ccc;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.side {
+  width: 250px;
+  padding: 10px;
+}
+
+main {
+  flex: 1;
+  padding: 15px;
+  background-color: #ffffff;
+}
